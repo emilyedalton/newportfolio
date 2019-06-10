@@ -14,6 +14,8 @@ class Portfolio extends Component {
         <Grid.Row/>
 
         <Grid stackable columns={1}>
+        <Grid.Row/>
+
     <Grid.Row columns={3}>
    
       <Grid.Column>
@@ -28,25 +30,35 @@ class Portfolio extends Component {
     </Grid.Row>
     <Grid.Row columns={3}>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/project_1.jpg')}/>
       </Grid.Column>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/Train_Shedule.jpg')}/>
       </Grid.Column>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/burgers.jpg')}/>
       </Grid.Column>
     </Grid.Row>
-    
     <Grid.Row columns={3}>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/friend_findr.jpg')}/>
       </Grid.Column>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/LetterGuessGame.jpg')}/>
       </Grid.Column>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/TriviaGame.jpg')}/>
+      </Grid.Column>
+    </Grid.Row>
+    <Grid.Row columns={3}>
+      <Grid.Column>
+        <Image src={require('../../assets/images/Obect_Collector.jpg')}/>
+      </Grid.Column>
+      <Grid.Column>
+        <Image src={require('../../assets/images/liri.jpg')}/>
+      </Grid.Column>
+      <Grid.Column>
+        <Image src={require('../../assets/images/Bamazon.jpg')}/>
       </Grid.Column>
     </Grid.Row>
     </Grid>
