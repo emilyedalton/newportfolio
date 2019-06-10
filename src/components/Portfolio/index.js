@@ -11,16 +11,19 @@ class Portfolio extends Component {
 
     <Parallax>
         <Container>
-        <Grid>
+        <Grid.Row/>
+
+        <Grid stackable columns={1}>
     <Grid.Row columns={3}>
+   
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src= {require('../../assets/images/Book.jpg')}/>
       </Grid.Column>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/Memory_Game.jpg')}/>
       </Grid.Column>
       <Grid.Column>
-        <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
+        <Image src={require('../../assets/images/CitySearch.jpg')}/>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row columns={3}>
