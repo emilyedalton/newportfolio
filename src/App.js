@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import './App.css';
 import { ParallaxProvider } from 'react-scroll-parallax';
 import {Button} from "semantic-ui-react"
-import Main from "./components/Main"
+import Main from "./components/Main/Main"
 import {Container} from 'semantic-ui-react'
 
 
