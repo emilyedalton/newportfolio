@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import { Button, Container, Grid, Header, Row, Image} from 'semantic-ui-react'
+import {  Button, Container, Grid, Header, Popup, Image} from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
 
 
@@ -17,20 +17,34 @@ class Portfolio extends Component {
         <Grid.Row/>
 
     <Grid.Row columns={3}>
-   
+        
       <Grid.Column>
-        <Image src= {require('../../assets/images/Book.jpg')}/>
+          
+        <Image src= {require('../../assets/images/Book.jpg')}
+        as='a'
+        href='https://dry-cove-87436.herokuapp.com/'
+        target='_blank'
+        />
       </Grid.Column>
       <Grid.Column>
-        <Image src={require('../../assets/images/Memory_Game.jpg')}/>
+        <Image src={require('../../assets/images/Memory_Game.jpg')}
+        as='a'
+        href='http://google.com'
+        target='_blank'/>
       </Grid.Column>
       <Grid.Column>
-        <Image src={require('../../assets/images/CitySearch.jpg')}/>
+        <Image src={require('../../assets/images/CitySearch.jpg')}
+        as='a'
+        href='http://google.com'
+        target='_blank'/>
       </Grid.Column>
     </Grid.Row>
     <Grid.Row columns={3}>
       <Grid.Column>
-        <Image src={require('../../assets/images/project_1.jpg')}/>
+        <Image src={require('../../assets/images/project_1.jpg')}
+        as='a'
+        href='http://google.com'
+        target='_blank'/>
       </Grid.Column>
       <Grid.Column>
         <Image src={require('../../assets/images/Train_Shedule.jpg')}/>

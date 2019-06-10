@@ -22,16 +22,22 @@ class Main extends Component {
             strength={200}
         >
         <Container>
-        <Grid.Column textAlign="center">
+            <Grid>
+        <Grid.Column style={{border: "solid 2px red"}}width={8} textAlign="center">
 
             <div style={{ height: '100vh' }} />
-               <Header as='h1' content="Emily Dalton | Web Developer" 
+
+                   </Grid.Column>
+
+                     <Grid.Column style = {{border: "solid 2px blue"}} width={8} textAlign="center">
+                     <Header as='h1' content="Emily Dalton | Web Developer" 
          style={{
-            transform: "translate(700px, -300px)",
              fontSize: '2em',
              color:'white'}}/>
-            <Button style ={{transform: "translate(830px, -300px)"}} inverted>View Portfolio</Button>
+            <Button style ={{}} inverted>View Portfolio</Button>
       </Grid.Column>
+     
+      </Grid>
       </Container>
     </Parallax>
 

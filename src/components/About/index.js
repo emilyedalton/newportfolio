@@ -12,7 +12,7 @@ class About extends Component {
              <Parallax>
 
             <Container>
-            <Grid stackable columns={1}>    
+            <Grid verticalAlign='middle' centered stackable columns={1} style = {{margin:"3em"}}>    
             <Grid.Column width={4}>
       <Image src='https://react.semantic-ui.com/images/wireframe/image.png' />
     </Grid.Column>
