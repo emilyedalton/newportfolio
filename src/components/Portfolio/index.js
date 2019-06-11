@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {  Button, Container, Grid,  Header, Image, Popup, Reveal} from 'semantic-ui-react'
+import {  Button, Container, Grid,  Header, Icon, Image, Popup, Reveal} from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
 import './style.css'
 
@@ -27,13 +27,12 @@ class Portfolio extends Component {
         href='https://dry-cove-87436.herokuapp.com/'
         target='_blank'
         />} floating hoverable><Grid centered divided columns={2}> <Grid.Column textAlign='center'>
-        <Header as='h4'>Basic Plan</Header>
-      
+        {/* <Header as='h4'>Basic Plan</Header> */}
+        <Icon name='github' size='large' style={{margin: "1em"}}/>
         <Button>Github</Button>
       </Grid.Column>
       <Grid.Column textAlign='center'>
-        <Header as='h4'>Business Plan</Header>
-      
+<Icon name ='linkify'size='large' style={{margin: "1em"}}/>
         <Button>View Site</Button>
       </Grid.Column>
    
