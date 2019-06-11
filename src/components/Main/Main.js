@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Container, Grid, Header } from 'semantic-ui-react'
+import { Button, Container, Grid, Header} from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
 
 

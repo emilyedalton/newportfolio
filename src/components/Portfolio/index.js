@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
-import {  Button, Container, Grid, Header, Popup, Image} from 'semantic-ui-react'
+import {  Button, Container, Grid,  Header, Image, Popup, Reveal} from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
+import './style.css'
 
 
 class Portfolio extends Component {
@@ -17,15 +18,31 @@ class Portfolio extends Component {
         <Grid.Row/>
 
     <Grid.Row columns={3}>
-        
-      <Grid.Column>
-          
-        <Image src= {require('../../assets/images/Book.jpg')}
+   
+
+      <Grid.Column className="styleButton">
+ 
+      <Popup trigger={<Image src= {require('../../assets/images/Book.jpg')}
         as='a'
         href='https://dry-cove-87436.herokuapp.com/'
         target='_blank'
-        />
+        />} floating hoverable><Grid centered divided columns={2}> <Grid.Column textAlign='center'>
+        <Header as='h4'>Basic Plan</Header>
+      
+        <Button>Github</Button>
       </Grid.Column>
+      <Grid.Column textAlign='center'>
+        <Header as='h4'>Business Plan</Header>
+      
+        <Button>View Site</Button>
+      </Grid.Column>
+   
+     </Grid></Popup>
+    
+        {/* <Popup trigger={<Button>Show flowing popup</Button>} flowing hoverable>
+    </Popup> */}
+      </Grid.Column>
+      
       <Grid.Column>
         <Image src={require('../../assets/images/Memory_Game.jpg')}
         as='a'
@@ -39,6 +56,7 @@ class Portfolio extends Component {
         target='_blank'/>
       </Grid.Column>
     </Grid.Row>
+    
     <Grid.Row columns={3}>
       <Grid.Column>
         <Image src={require('../../assets/images/project_1.jpg')}
