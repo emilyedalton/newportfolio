@@ -10,10 +10,9 @@ class Portfolio extends Component {
         return (
           <div>
 
-    <Parallax>
+        <Parallax>
         <Container>
         <Grid.Row/>
-
         <Grid stackable columns={1}>
         <Grid.Row/>
 
@@ -21,13 +20,20 @@ class Portfolio extends Component {
    
 
       <Grid.Column className="styleButton">
- 
-      <Popup trigger={<Image src= {require('../../assets/images/Book.jpg')}
+      <Reveal animated='small fade'>
+    <Reveal.Content visible>
+      <Image src= {require('../../assets/images/Book.jpg')}
         as='a'
         href='https://dry-cove-87436.herokuapp.com/'
-        target='_blank'
-        />} floating hoverable><Grid centered divided columns={2}> <Grid.Column textAlign='center'>
-        {/* <Header as='h4'>Basic Plan</Header> */}
+        target='_blank' />
+        </Reveal.Content>
+    <Reveal.Content hidden>
+        <Grid centered divided columns={2}> 
+        <Grid.Column textAlign='center'>
+        <Header as='h4'>React Book Finder</Header>
+        </Grid.Column>
+        <Grid.Row/>
+        <Grid.Column textAlign='center'>
         <Icon name='github' size='large' style={{margin: "1em"}}/>
         <Button>Github</Button>
       </Grid.Column>
@@ -35,12 +41,12 @@ class Portfolio extends Component {
 <Icon name ='linkify'size='large' style={{margin: "1em"}}/>
         <Button>View Site</Button>
       </Grid.Column>
-   
-     </Grid></Popup>
-    
-        {/* <Popup trigger={<Button>Show flowing popup</Button>} flowing hoverable>
-    </Popup> */}
+     </Grid>
+     </Reveal.Content>
+     </Reveal>
       </Grid.Column>
+      
+
       
       <Grid.Column>
         <Image src={require('../../assets/images/Memory_Game.jpg')}
