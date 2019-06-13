@@ -16,6 +16,11 @@ class Portfolio extends Component {
         <Grid.Row/>
 
     <Grid.Row style ={{border: "solid 2px blue"}}columns={3}>
+    <Header as='h1' content="React"
+                                    style={{
+                                        fontSize: '2em',
+                                        color: 'black',
+                                    }} />
     <Card.Group itemsPerRow={3} stackable columns={1}>
 
 <Card>
@@ -65,84 +70,23 @@ class Portfolio extends Component {
     <Button>Link</Button>
     </Card.Content>
     </Card>
-      {/* <Grid.Column className="styleButton">
-      <Reveal animated='small fade'>
-    <Reveal.Content style ={{border:"solid 2px orange"}}visible>
-      <Image src= {require('../../assets/images/Memory_Game.jpg')}
-        as='a'
-        href='https://dry-cove-87436.herokuapp.com/'
-        target='_blank' />
-        </Reveal.Content>
-    <Reveal.Content hidden>
-        <Grid centered divided columns={2}> 
-        <Grid.Column textAlign='center'>
-        </Grid.Column>
-        <Grid.Row />
-        <Grid.Column textAlign='center'>
-        <Icon name='github' size='large' style={{margin: "1em"}}/>
-        <Button>Github</Button>
-      </Grid.Column>
-      <Grid.Column textAlign='center'>
-<Icon name ='linkify'size='large' style={{margin: "1em"}}/>
-        <Button>View Site</Button>
-      </Grid.Column>
-     </Grid>
-     </Reveal.Content>
-     </Reveal>
-      </Grid.Column> */}
-      
-
-{/* <Grid.Column className="styleButton">
-      <Reveal animated='small fade'>
-    <Reveal.Content style ={{border:"solid 2px orange"}} visible>
-      <Image src= {require('../../assets/images/Memory_Game.jpg')}
-        as='a'
-        href='https://dry-cove-87436.herokuapp.com/'
-        target='_blank' />
-        </Reveal.Content>
-    <Reveal.Content hidden>
-        <Grid centered divided columns={2}> 
-        <Grid.Column textAlign='center'>
-        <Header as='h4'> Memory Game</Header>
-        </Grid.Column>
-        <Grid.Row/>
-        <Grid.Column textAlign='center'>
-        <Icon name='github' size='large' style={{margin: "1em"}}/>
-        <Button>Github</Button>
-      </Grid.Column>
-      <Grid.Column textAlign='center'>
-<Icon name ='linkify'size='large' style={{margin: "1em"}}/>
-        <Button>View Site</Button>
-      </Grid.Column>
-     </Grid>
-     </Reveal.Content>
-     </Reveal>
-      </Grid.Column> */}
-      
-     
-     
-
-     {/* <Grid.Column className="styleButton">
-      <Reveal.Content style ={{border:"solid 2px orange"}}visible>
-      <Grid.Column style={{border: "2px solid green"}}>
-        <Image src={require('../../assets/images/CitySearch.jpg')}
-        as='a'
-        href='http://google.com'
-        target='_blank'/>
-      </Grid.Column>
-    </Reveal.Content>
-</Grid.Column> */}
+    
 </Card.Group>
 
     </Grid.Row>
+  
     <Grid.Row style = {{border:"solid 2px red"}}columns={3}>
-      <Grid.Column>
+    <Header as='h1' content="Some other Tech"
+                                    style={{
+                                        fontSize: '2em',
+                                        color: 'black',
+                                    }} />
+<Card>
         <Image src={require('../../assets/images/project_1.jpg')}
         as='a'
         href='http://google.com'
         target='_blank'/>
-      </Grid.Column>
-
+</Card>
       <Grid.Column>
         <Image src={require('../../assets/images/Train_Shedule.jpg')}/>
       </Grid.Column>
