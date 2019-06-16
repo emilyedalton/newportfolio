@@ -123,17 +123,19 @@ class Portfolio extends Component {
                 {/* </Grid.Row> */}
                 </Card.Group>
 
-              {/* <Grid.Row columns={3}>
-                <Grid.Column>
+              {/* <Grid.Row columns={3}> */}
+                <Card.Group itemsPerRow={3} stackable columns={1}>
+
+                  <Card>
                   <Image src={require('../../assets/images/Obect_Collector.jpg')} />
-                </Grid.Column>
-                <Grid.Column>
+                </Card>
+                <Card>
                   <Image src={require('../../assets/images/liri.jpg')} />
-                </Grid.Column>
-                <Grid.Column>
+                </Card>
+                <Card>
                   <Image src={require('../../assets/images/Bamazon.jpg')} />
-                </Grid.Column>
-              </Grid.Row> */}
+                </Card>
+              </Card.Group>
               </Grid.Row>
             </Grid>
           </Container>
