@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Button, Container, Grid, Header, Row, Image} from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
-
+import Portfolio from '../Portfolio/'
 
 class About extends Component {
 
@@ -26,7 +26,8 @@ class About extends Component {
 
 
 
-</div>
-    )
-}}
+<Portfolio/>
+</div>    )
+}
+}
 export default About; 

@@ -15,7 +15,7 @@ class Portfolio extends Component {
             <Grid stackable columns={1}>
               <Grid.Row />
 
-              <Grid.Row style={{ border: "solid 2px blue" }} columns={3}>
+              <Grid.Row style={{ border: "solid 2px blue" }} columns={3} id="top">
                 <Header as='h1' content="React"
                   style={{
                     fontSize: '2em',

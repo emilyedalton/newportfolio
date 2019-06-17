@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Container, Grid, Header} from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
+import {NavLink, Link, withRouter} from 'react-router-dom'
+import About from '../About'
+
 
 
 
@@ -41,7 +44,9 @@ class Main extends Component {
                                         fontSize: '2em',
                                         color: 'white',
                                     }} />
-                                <Button style={{}} inverted>View Portfolio</Button>
+
+                                <Button as={Link} to='/portfolio' inverted>View Portfolio</Button>
+
                             </Grid.Column>
 
                             <Grid.Column  width={4} textAlign="center"/>
@@ -65,9 +70,10 @@ class Main extends Component {
                 </Parallax>
 
 
+<About/>
+</div>
 
-
-            </div>
+            // </div>
         )
     }
 }
