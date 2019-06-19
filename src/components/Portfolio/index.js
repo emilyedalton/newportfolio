@@ -14,13 +14,10 @@ class Portfolio extends Component {
             <Grid.Row />
             <Grid stackable columns={1}>
               <Grid.Row />
+              <Grid.Row />
+              <Grid.Row />
 
-              <Grid.Row style={{ border: "solid 2px blue" }} columns={3} id="top">
-                <Header as='h1' content="React"
-                  style={{
-                    fontSize: '2em',
-                    color: 'black',
-                  }} />
+             
                 <Card.Group itemsPerRow={3} stackable columns={1}>
 
                   <Card>
@@ -72,12 +69,7 @@ class Portfolio extends Component {
                 </Card.Group>
 
 
-              {/* <Grid.Row style={{ border: "solid 2px red" }} columns={3}> */}
-                <Header as='h1' content="Some other Tech"
-                  style={{
-                    fontSize: '2em',
-                    color: 'black',
-                  }} />
+            
                 <Card.Group itemsPerRow={3} stackable columns={1}>
 
                   <Card>
@@ -97,14 +89,7 @@ class Portfolio extends Component {
                       target='_blank' />
                   </Card>
                 </Card.Group>
-              {/* </Grid.Row> */}
-
-              {/* <Grid.Row style={{ border: "solid 2px red" }} columns={3}> */}
-                <Header as='h1' content="Some other Tech"
-                  style={{
-                    fontSize: '2em',
-                    color: 'black',
-                  }} />
+            
                 
               <Card.Group itemsPerRow={3} stackable columns={1}>
                   
@@ -118,14 +103,7 @@ class Portfolio extends Component {
                     <Image src={require('../../assets/images/TriviaGame.jpg')} />
                   </Card>
                 </Card.Group>
-                {/* </Grid.Row> */}
-
-                {/* <Grid.Row style={{ border: "solid 2px red" }} columns={3}> */}
-                <Header as='h1' content="Some other Tech"
-                  style={{
-                    fontSize: '2em',
-                    color: 'black',
-                  }} />
+               
                 <Card.Group itemsPerRow={3} stackable columns={1}>
       
                   <Card>
@@ -138,8 +116,7 @@ class Portfolio extends Component {
                 <Image src={require('../../assets/images/Bamazon.jpg')} />
                 </Card>
               </Card.Group>
-              </Grid.Row>
-              {/* </Grid.Row> */}
+           
              </Grid>
             
           </Container>

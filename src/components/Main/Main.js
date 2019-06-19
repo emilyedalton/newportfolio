@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Container, Grid, Header} from 'semantic-ui-react'
-import { Parallax, Background } from 'react-parallax';
-import {NavLink, Link, withRouter} from 'react-router-dom'
+import { Parallax,  } from 'react-parallax';
+import { Link} from 'react-router-dom'
 import About from '../About'
 
 
