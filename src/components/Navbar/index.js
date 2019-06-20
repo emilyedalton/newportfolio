@@ -21,13 +21,13 @@ class Navbar extends Component {
                  <Menu.Item as={NavLink} to='/about' name="About"/>
                  <Menu.Menu position='right'>
 
-                 <Menu.Item position="right"as={Link} to='https://github.com/emilyedalton'> 
+                 <Menu.Item position="right" href='https://github.com/emilyedalton'target='_blank'> 
                  <Icon name= "github"/>   
                  </Menu.Item>              
-                 <Menu.Item  position="right"as={Link} to='https://www.linkedin.com/in/emilyedalton/'> 
+                 <Menu.Item  position="right"href='https://www.linkedin.com/in/emilyedalton/'target='_blank' > 
                  <Icon name= "linkedin"/>   
                  </Menu.Item>                  
-                 <Menu.Item position="right"as={Link} to='mailto:emilyedalton@gmail.com'> 
+                 <Menu.Item position="right"href='mailto:emilyedalton@gmail.com' target='_blank'> 
                  <Icon name= "envelope outline"/>   
                  </Menu.Item>                  
                 </Menu.Menu>
