@@ -32,17 +32,17 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/book-class'
                       target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://dry-cove-87436.herokuapp.com/'
                       target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
                     <Image src={require('../../assets/images/Memory_Game.jpg')}
                       as='a'
-                      href='https://dry-cove-87436.herokuapp.com/'
+                      href='https://emilyedalton.github.io/clicky_memory_game_react/'
                       target='_blank' />
 
                     <Card.Content>
@@ -51,10 +51,10 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/clicky_game/tree/master'
                       target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/clicky_memory_game_react/'
                       target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
@@ -62,7 +62,7 @@ class Portfolio extends Component {
                   <Card>
                     <Image src={require('../../assets/images/CitySearch.jpg')}
                       as='a'
-                      href='https://dry-cove-87436.herokuapp.com/'
+                      href='https://emilyedalton.github.io/GifTastic/'
                       target='_blank' />
 
                     <Card.Content>
@@ -71,10 +71,10 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/GifTastic/'
                       target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/GifTastic/'
                       target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
@@ -87,7 +87,7 @@ class Portfolio extends Component {
                   <Card>
                     <Image src={require('../../assets/images/project_1.jpg')}
                       as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/Project_1/'
                       target='_blank' />
                        <Card.Content>
                       <Card.Header>Food Finder</Card.Header>
@@ -95,16 +95,16 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/Project_1'
                       target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/Project_1/'
                       target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
                     <Image src={require('../../assets/images/Train_Shedule.jpg')}  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/Train_Scheduler/'
                       target='_blank' />
                     <Card.Content>
                       <Card.Header>Train Scheduler</Card.Header>
@@ -112,10 +112,10 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/Train_Scheduler'
                       target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/Train_Scheduler/'
                       target='_blank' content="Link"/>
                     </Card.Content>
 
@@ -124,18 +124,18 @@ class Portfolio extends Component {
                   <Card>
                     <Image src={require('../../assets/images/burgers.jpg')}
                       as='a'
-                      href='http://google.com'
+                      href='https://powerful-coast-80195.herokuapp.com/'
                       target='_blank' />
                        <Card.Content>
                       <Card.Header>Burgers!</Card.Header>
-                      <Card.Meta> Mongoose • HandlebarsJS • CSS FlexBox </Card.Meta>
+                      <Card.Meta> Sequelize • HandlebarsJS • CSS FlexBox </Card.Meta>
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/sequelizedBurger'
                       target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href='https://powerful-coast-80195.herokuapp.com/'
                       target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
@@ -146,7 +146,7 @@ class Portfolio extends Component {
                   
                    <Card>
                     <Image src={require('../../assets/images/friend_findr.jpg')}  as='a'
-                      href='http://google.com'
+                      href=' https://sleepy-cliffs-62107.herokuapp.com/'
                       target='_blank' />
                     <Card.Content>
                       <Card.Header>Man's Best Friend Finder</Card.Header>
@@ -154,16 +154,16 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
-                      target='_blank' content="Github"/>>
+                      href='https://github.com/emilyedalton/friend_finder'
+                      target='_blank' content="Github"/>
                       <Button  as='a'
-                      href='http://google.com'
+                      href=' https://sleepy-cliffs-62107.herokuapp.com/'
                       target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
                     <Image src={require('../../assets/images/LetterGuessGame.jpg')}  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/Letter_Guess_Game/'
                       target='_blank' />
                     <Card.Content>
                       <Card.Header>Letter Guess Game</Card.Header>
@@ -171,11 +171,11 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button  as='a'
-                      href='http://google.com'
-                      target='_blank' content="Github"/>>
+                      href='https://github.com/emilyedalton/Letter_Guess_Game'
+                      target='_blank' content="Github"/>
                       <Button as='a'
-                      href='http://google.com'
-                      target='_blank' content="Link"/> >
+                      href='https://emilyedalton.github.io/Letter_Guess_Game/'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
@@ -188,11 +188,11 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button as='a'
-                      href='http://google.com'
-                      target='_blank' content="blank"/> 
+                      href='https://github.com/emilyedalton/TrivaGame'
+                      target='_blank' content="Github"/> 
                       <Button as='a'
-                      href='http://google.com'
-                      target='_blank' content="blank"/>
+                      href='https://emilyedalton.github.io/TrivaGame/'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                 </Card.Group>
@@ -209,7 +209,7 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/unit_4_game'
                       target='_blank' content="Github"/>
                       <Button as='a'
                       href='https://emilyedalton.github.io/unit_4_game/'
@@ -226,10 +226,10 @@ class Portfolio extends Component {
                       <Card.Description>
                       </Card.Description>
                       <Button as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/liri-node-app/blob/master/README.md'
                       target='_blank' content="Github"/>
                       <Button as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/liri-node-app/blob/master/README.md'
                       target='_blank' content="Link"/> 
                       </Card.Content>
                 </Card>
@@ -242,8 +242,12 @@ class Portfolio extends Component {
                       <Card.Meta>MySQL • NodeJs </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button as='a'
+                      href='https://github.com/emilyedalton/bamazon/blob/master/README.md'
+                      target='_blank' content="Github"/>
+                      <Button as='a'
+                      href='https://github.com/emilyedalton/bamazon/blob/master/README.md'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                 </Card>
               </Card.Group>
