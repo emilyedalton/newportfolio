@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Container, Card, Grid, Header, Icon, Image, Popup, Reveal } from 'semantic-ui-react'
+import { Button, Container, Card, Grid, Header,Image, Popup, Reveal } from 'semantic-ui-react'
 import { Parallax, Background } from 'react-parallax';
+import Footer from "../Footer"
 
 
 class Portfolio extends Component {
@@ -251,13 +252,12 @@ class Portfolio extends Component {
                     </Card.Content>
                 </Card>
               </Card.Group>
-           
+           <Grid.Row/>
              </Grid>
             
           </Container>
         </Parallax>
-
-
+<Footer/>
 
       </div>
     )
