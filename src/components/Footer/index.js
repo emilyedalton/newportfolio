@@ -11,6 +11,8 @@ class Footer extends Component {
              <Parallax>
                  
            <p style={{color: "white", margin: "auto"}}> © Emily Dalton</p>
+           <p style={{color: "white", margin: "auto"}}> emilyedalton@gmail.com</p>
+
            
                  </Parallax>
                  </div>
