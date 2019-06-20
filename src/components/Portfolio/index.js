@@ -31,8 +31,12 @@ class Portfolio extends Component {
                       <Card.Meta>React • Google Books API • Bootstrap  </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
@@ -46,8 +50,12 @@ class Portfolio extends Component {
                       <Card.Meta>React • Bootstrap </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
 
@@ -62,8 +70,12 @@ class Portfolio extends Component {
                       <Card.Meta>Giphy API • JQuery </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                 </Card.Group>
@@ -82,8 +94,12 @@ class Portfolio extends Component {
                       <Card.Meta>Edamam API • JQuery • CSS FlexBox </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
@@ -95,8 +111,12 @@ class Portfolio extends Component {
                       <Card.Meta>Bootstrap • JQuery • Firebase • Moment.js </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
 
                   </Card>
@@ -111,8 +131,12 @@ class Portfolio extends Component {
                       <Card.Meta> Mongoose • HandlebarsJS • CSS FlexBox </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                 </Card.Group>
@@ -129,8 +153,12 @@ class Portfolio extends Component {
                       <Card.Meta>Express • Bootstrap </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                   </Card>
                   <Card>
@@ -142,8 +170,12 @@ class Portfolio extends Component {
                       <Card.Meta>JavaScript • CSS FlexBox  </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button  as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>>
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/> >
                     </Card.Content>
                   </Card>
                   <Card>
@@ -155,8 +187,12 @@ class Portfolio extends Component {
                       <Card.Meta>JavaScript • CSS FlexBox </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="blank"/> 
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="blank"/>
                     </Card.Content>
                   </Card>
                 </Card.Group>
@@ -165,29 +201,37 @@ class Portfolio extends Component {
       
                   <Card>
                   <Image src={require('../../assets/images/Obect_Collector.jpg')}  as='a'
-                      href='http://google.com'
+                      href='https://emilyedalton.github.io/unit_4_game/'
                       target='_blank' />
                   <Card.Content>
                       <Card.Header>Object Collector</Card.Header>
                       <Card.Meta>JavaScript • CSS FlexBox </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button as='a'
+                      href='https://emilyedalton.github.io/unit_4_game/'
+                      target='_blank' content="Link"/>
                     </Card.Content>
                 </Card>
                 <Card>
                   <Image src={require('../../assets/images/liri.jpg')} as='a'
-                      href='http://google.com'
+                      href='https://github.com/emilyedalton/liri-node-app/blob/master/README.md'
                       target='_blank' />
                   <Card.Content>
                       <Card.Header>Liri Bot</Card.Header>
                       <Card.Meta>Bands in Town API • Spotify API • OMDB API • NodeJs </Card.Meta>
                       <Card.Description>
                       </Card.Description>
-                      <Button>Github</Button>
-                      <Button>Link</Button>
-                    </Card.Content>
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="Github"/>
+                      <Button as='a'
+                      href='http://google.com'
+                      target='_blank' content="Link"/> 
+                      </Card.Content>
                 </Card>
                 <Card>
                 <Image src={require('../../assets/images/Bamazon.jpg')}  as='a'
