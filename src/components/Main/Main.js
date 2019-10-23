@@ -14,9 +14,9 @@ class Main extends Component {
             <div>
 
                 <Parallax
-                    bgImage={require('../../assets/images/Bridge.jpg')}
+                    bgImage={require('../../assets/images/kitty.jpg')}
                     bgImageAlt="myBackground"
-                    strength={200}
+                    strength={100}
                 >
 
                     <Container style={{ height: '100vh' }} >
@@ -73,7 +73,6 @@ class Main extends Component {
 <About/>
 </div>
 
-            // </div>
         )
     }
 }
