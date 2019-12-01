@@ -14,11 +14,13 @@ class Portfolio extends Component {
           <Container>
             <Grid.Row />
             <Grid stackable columns={1}>
+
               <Grid.Row />
               <Grid.Row />
               <Grid.Row />
 
-             
+              <Header>Northwestern Coding Bootcamp</Header>
+
                 <Card.Group itemsPerRow={3} stackable columns={1}>
 
                   <Card>
