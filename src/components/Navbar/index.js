@@ -19,7 +19,7 @@ class Navbar extends Component {
                  <Dropdown item inverted text='Projects' >
                  <Dropdown.Menu color="white"style={{
                 background: "rgba(255,255,255, 0.9)"}}>
-                 <Dropdown.Item>Data Visualizations</Dropdown.Item>
+                 <Dropdown.Item as={NavLink} to='/dataviz'>Data Visualizations</Dropdown.Item>
                 <Dropdown.Item as={NavLink} to='/portfolio' name="Projects">Northwestern Coding Bootcamp</Dropdown.Item>
                 </Dropdown.Menu>
                  </Dropdown>
