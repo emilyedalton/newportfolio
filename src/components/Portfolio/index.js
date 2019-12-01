@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Button, Container, Card, Grid, Header,Image, Popup, Reveal } from 'semantic-ui-react'
-import { Parallax, Background } from 'react-parallax';
+import { Button, Container, Card, Grid, Header,Image } from 'semantic-ui-react'
+import { Parallax, } from 'react-parallax';
+import DataViz  from '../DataViz'
 import Footer from "../Footer"
 
 
@@ -259,6 +260,7 @@ class Portfolio extends Component {
             
           </Container>
         </Parallax>
+        <DataViz/>
 <Footer/>
 
       </div>

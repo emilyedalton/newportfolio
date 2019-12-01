@@ -8,6 +8,7 @@ import Main from "./components/Main/Main"
 import Portfolio from './components/Portfolio/'
 import About from './components/About/'
 import Navbar from './components/Navbar/'
+import DataViz from './components/DataViz'
 
 
 
@@ -21,6 +22,8 @@ class App extends Component {
           <Route exact path="/" component={Main} />
           <Route  path="/about" component={About} />
           <Route  path="/portfolio" component={Portfolio} />
+          <Route  path="/dataviz" component={DataViz} />
+
         </Switch>
 
     </Router>
