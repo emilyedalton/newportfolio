@@ -69,7 +69,6 @@ class DataViz extends Component {
             
           </Container>
         </Parallax>
-<Footer/>
 
       </div>
     )
